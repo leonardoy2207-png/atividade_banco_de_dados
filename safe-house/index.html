@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe House - Segurança Residencial</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- CABEÇALHO -->
+<header>
+    <div class="container header-content">
+        <div class="logo">
+            <img src="img/logo-badge-2.png" alt="Logo Safe House">
+            <h1>Safe House</h1>
+        </div>
+
+        <button id="btn-menu">☰</button>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#profissionais">Profissionais</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="container">
+        <h2>Segurança residencial em primeiro lugar</h2>
+        <p>Empresa de segurança residencial, priorizando ao máximo a proteção e defesa da sua residência para uma vida de conforto e tranquilidade, longe de perigos.</p>
+        <a href="#servicos" class="botao">Ver serviços</a>
+        <a href="#contato" class="botao">Solicitar orçamento</a>
+        <br>
+        <img class="hero-img" src="img/reconhecimento-portao.jpg" alt="Mulher chegando em casa com sistema de segurança Safe House">
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+    <div class="container">
+        <h2 class="titulo-secao centro" style="display:block; text-align:center; margin-left:auto; margin-right:auto; width:fit-content;">Sobre a empresa</h2>
+
+        <div class="sobre-flex">
+            <img src="img/familia-sala.jpg" alt="Família protegida em casa">
+            <div class="sobre-texto">
+                <p>A Safe House foi fundada em 1984 fabricando e instalando sistemas de segurança para residências. Hoje conta com mais de 18 unidades distribuídas pelo Brasil, com a sede em Chapecó.</p>
+                <p>Contamos com alguns milhares de clientes, que há anos confiam em nosso trabalho, trabalhando com segurança residencial com monitoramento 24h e resposta rápida em qualquer situação de risco.</p>
+
+                <div class="caixas">
+                    <div class="caixa">
+                        <h3>Por que nos escolher</h3>
+                        <p>Monitoramento 24h e resposta rápida em todas as unidades pelo Brasil.</p>
+                    </div>
+                    <div class="caixa">
+                        <h3>Nossa experiência</h3>
+                        <p>Milhares de clientes que há anos confiam no nosso trabalho.</p>
+                    </div>
+                    <div class="caixa">
+                        <h3>Tecnologia</h3>
+                        <p>Câmeras, sensores e controle de acesso funcionando de forma integrada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROFISSIONAIS -->
+<section id="profissionais">
+    <div class="container">
+        <h2 class="titulo-secao centro" style="display:block; text-align:center; margin-left:auto; margin-right:auto; width:fit-content;">Nossos profissionais</h2>
+        <p class="centro">Nossa equipe reúne profissionais de segurança, técnicos especializados e engenheiros com anos de experiência e certificações no setor, preparados para projetar, instalar e monitorar cada sistema com precisão.</p>
+
+        <div class="equipe">
+            <div class="card-pessoa">
+                <img src="img/colaborador-willian.jpg" alt="Willian Silva">
+                <h3>Willian Silva</h3>
+                <span>Segurança Profissional</span>
+            </div>
+            <div class="card-pessoa">
+                <img src="img/colaborador-nicolas.jpg" alt="Nicolas Castro">
+                <h3>Nicolas Castro</h3>
+                <span>Técnico em Segurança</span>
+            </div>
+            <div class="card-pessoa">
+                <img src="img/colaborador-wagner.jpg" alt="Wagner Branco">
+                <h3>Wagner Branco</h3>
+                <span>Engenheiro de Segurança</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+    <div class="container">
+        <h2 class="titulo-secao centro" style="display:block; text-align:center; margin-left:auto; margin-right:auto; width:fit-content;">Nossos serviços</h2>
+        <p class="centro">Com os índices de criminalidade cada vez mais altos, investir em um sistema eficiente de proteção deixou de ser um luxo para se tornar uma necessidade essencial para famílias que buscam tranquilidade e bem-estar.</p>
+        <br>
+
+        <div id="lista-servicos"><p class="centro">Carregando serviços...</p></div>
+    </div>
+</section>
+
+<!-- CLIENTES -->
+<section id="clientes">
+    <div class="container">
+        <h2 class="titulo-secao centro" style="display:block; text-align:center; margin-left:auto; margin-right:auto; width:fit-content;">Clientes</h2>
+        <p class="centro">Empresas e famílias já contam com nossas soluções de monitoramento inteligente para proteger imóveis, identificar movimentações suspeitas e acompanhar tudo em tempo real.</p>
+
+        <div class="depoimentos" id="lista-depoimentos">
+            <p class="centro">Carregando depoimentos...</p>
+        </div>
+
+        <h3 class="centro" style="margin-top:30px;">Deixe o seu depoimento</h3>
+        <form class="depoimento-form" id="form-depoimento">
+            <input type="text" id="dep-nome" name="nome" placeholder="Seu nome" maxlength="100" required>
+            <textarea id="dep-texto" name="texto" placeholder="Escreva seu depoimento" required></textarea>
+            <button type="submit">Enviar depoimento</button>
+            <p class="status" id="dep-status"></p>
+        </form>
+    </div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+    <div class="container">
+        <h2 class="titulo-secao centro" style="display:block; text-align:center; margin-left:auto; margin-right:auto; width:fit-content;">Blog</h2>
+
+        <div class="blog-lista">
+            <div class="post">
+                <img src="img/controle-acesso.jpg" alt="Controle de acesso de condomínio">
+                <div class="post-conteudo">
+                    <p class="post-info">Controle de Acesso - Por Safe House - 2026</p>
+                    <h3>As falhas de controle de acesso que mais expõem condomínios</h3>
+                    <p>Pequenas falhas no controle de acesso podem gerar grandes riscos para um condomínio. Controles clonados, cadastros desatualizados e liberações sem conferência são situações que podem comprometer a segurança de moradores e funcionários.</p>
+                    <a href="https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica" target="_blank">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="post">
+                <img src="img/reconhecimento-facial.jpg" alt="Reconhecimento facial">
+                <div class="post-conteudo">
+                    <p class="post-info">Reconhecimento Facial - Por Safe House - 2026</p>
+                    <h3>Como o reconhecimento facial muda o controle de acesso em 2026</h3>
+                    <p>Em 2026, o reconhecimento facial torna o controle de acesso mais rápido, seguro e prático, identificando moradores sem o uso de chaves, cartões ou controles, reduzindo riscos de perda e clonagem.</p>
+                    <a href="https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica" target="_blank">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+    <div class="container">
+        <h2 class="titulo-secao centro" style="display:block; text-align:center; margin-left:auto; margin-right:auto; width:fit-content;">Fale com a Safe House</h2>
+
+        <div class="contato-flex">
+            <div class="contato-info">
+                <p><strong>Endereço</strong>Rua Independência, 235 - Passo Fundo, RS - CEP 99010-040</p>
+                <p><strong>Telefone / WhatsApp</strong>(19) 97163-2712</p>
+                <p><strong>Atendimento</strong>Central de monitoramento ativa 24 horas por dia, todos os dias.</p>
+            </div>
+
+            <form class="contato-form" id="form-contato">
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" maxlength="100" required>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail" maxlength="150" required>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                <button type="submit">Enviar</button>
+                <p class="status" id="contato-status"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer>
+    <p>&copy; 2026 Safe House - Todos os direitos reservados.</p>
+    <p>Projeto acadêmico - site institucional de prestação de serviços.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
